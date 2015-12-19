@@ -36,7 +36,7 @@
 							<groupId>ru.sovzond.mgis2</groupId>
 							<artifactId>mgis-web</artifactId>
 							<excludes>
-								<exclude>WEB-INF/classes/images/sampleimage-dependency.jpg</exclude>
+								<exclude>app2/i18n/locale-ru_RU.json</exclude>
 							</excludes>
 						</overlay>
 					</overlays>
