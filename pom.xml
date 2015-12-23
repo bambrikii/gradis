@@ -3,13 +3,6 @@
 		 xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<parent>
-		<groupId>ru.sovzond.mgis2</groupId>
-		<artifactId>mgis-parent</artifactId>
-		<version>0.2.0</version>
-		<relativePath>../mgis2/pom.xml</relativePath>
-	</parent>
-
 	<groupId>ru.sovzond.gradis</groupId>
 	<artifactId>gradis-parent</artifactId>
 	<version>0.0.1</version>
@@ -19,11 +12,16 @@
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+		<spring.version>4.1.6.RELEASE</spring.version>
+		<spring.security.version>4.0.1.RELEASE</spring.security.version>
+		<hibernate.core.version>4.3.9.Final</hibernate.core.version>
+		<hibernate.spatial.version>4.3</hibernate.spatial.version>
+		<jstl.version>1.2</jstl.version>
+		<junit.version>4.12</junit.version>
 		<mgis.version>0.2.0</mgis.version>
 	</properties>
 
 	<modules>
-		<module>../mgis2</module>
 		<module>gradis-web</module>
 	</modules>
 
